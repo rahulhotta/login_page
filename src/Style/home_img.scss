@@ -1,0 +1,15 @@
+.home_img
+{
+    position: absolute;
+    top: 6.8vh;
+    right: 0;
+    max-width: 60vw;
+    height: calc(100vh - 63px);
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .home_img{
+        display: none;
+    }
+}
